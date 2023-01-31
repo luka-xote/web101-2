@@ -1,0 +1,150 @@
+body {
+    padding: 40px;
+    align-items: center;
+    height: 100vh;
+    font-family: "Red Hat Display", sans-serif;
+    margin: 0;
+    background-image: url("pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-color: #dee9ff;
+}
+h1 {
+    font-family: Red Hat Display;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 37px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #1F2E55;
+
+}
+
+p {
+    font-family: Red Hat Display;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #717FA6;
+
+}
+
+
+.card {
+    margin: auto;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0px 40px 40px -20px #0D30BD27;
+}
+
+.card-img {
+    width: 100%;
+}
+
+
+.info {
+    
+    display: flex;
+    align-items: center;  
+    justify-content:space-between;
+    margin: 20px auto;
+    background-color:#F7F9FF;
+    width: 70%;
+    height: 70px;
+    border-radius: 11px;
+    padding: 20px;
+
+}
+.info a {
+    font-family: Red Hat Display;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0px;  
+    color: #382AE1;  
+}
+.info a:hover {
+    text-decoration: none;
+    color: #766CF1;
+}
+
+
+.price {
+    padding-right: 60px;
+    justify-content: center;
+    font-family: Red Hat Display;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.price p{
+    margin: 0;
+}
+
+
+#payment {
+    text-decoration: none;
+}
+#payment :hover {
+    background-color: #766CF1;
+}
+.payment {
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    background-color: #382AE1;
+    width: 80%;
+    height: 50px;
+    border-radius: 11px;
+    box-shadow: 0px 20px 20px 0px #382AE131;
+}
+.payment >p {
+    font-family: Red Hat Display;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+
+.cancel {
+    margin:auto;
+    margin-bottom: 40px;
+    font-family: Red Hat Display;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: 0px;
+}
+.cancel a{
+    text-decoration: none;
+    color: #717FA6;
+}
+.cancel a:hover{
+    color: #1F2E55;
+}
+
+
+.bold {
+    font-weight:900;
+    color:#1F2E55 ;
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+
+.attribution { font-size: 11px; text-align: center; padding: 20px; }
+.attribution a { color: hsl(228, 45%, 44%); }
